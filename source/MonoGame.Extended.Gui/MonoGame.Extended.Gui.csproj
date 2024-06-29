@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>A GUI system for MonoGame written from the ground up to make MonoGame more awesome.</Description>
+    <PackageTags>monogame gui</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Extended" Version="3.9.0-prerelease.7" />
+    <PackageReference Include="MonoGame.Extended.Input" Version="3.9.0-prerelease.7" />
+  </ItemGroup>
+
+</Project>

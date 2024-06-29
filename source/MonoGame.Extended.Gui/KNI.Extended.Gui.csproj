@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);KNI</DefineConstants>
+    <Description>A GUI system for KNI written from the ground up to make KNI more awesome.</Description>
+    <PackageTags>kni gui</PackageTags>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Kni.Extended" Version="3.9.0-prerelease.7" />
+        <PackageReference Include="Kni.Extended.Input" Version="3.9.0-prerelease.7" />
+    </ItemGroup>
+
+</Project>
